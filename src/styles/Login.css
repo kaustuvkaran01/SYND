@@ -1,0 +1,38 @@
+body{
+    background: #FEFFDF;
+
+}
+
+.app1{
+    background: white;
+	border-radius: 150%;
+	display: block;
+	height: 300px;
+	right: 90%;
+	margin: -51px 0 0 -49px;
+	position: absolute;
+	top: 40%;
+	width: 300px; 
+}
+.app2{
+    background: white;
+	border-radius: 150%;
+	display: block;
+	height: 300px;
+	left: 90%;
+	margin: -51px 0 0 -49px;
+	position: absolute;
+	top: 80%;
+	width: 300px; 
+}
+.app3{
+    background: white;
+	border-radius: 150%;
+	display: block;
+	height: 300px;
+	left: 60%;
+	margin: -51px 0 0 -49px;
+	position: absolute;
+	top: -150px;
+	width: 300px; 
+}
