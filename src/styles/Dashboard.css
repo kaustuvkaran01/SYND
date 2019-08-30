@@ -1,0 +1,50 @@
+body {
+    overflow: hidden;
+}
+col1 {
+    width: 100%;
+    height: 100%;
+}
+
+col2 {
+    width: 100%;
+    height: 100%;
+}
+.app1 {
+    background: #ffe79a;
+    border-radius: 50%;
+    display: block;
+    height: 300px;
+    right: -80px;
+    margin: -51px 0 0 -49px;
+    position: absolute;
+    top: 50%;
+    width: 300px;
+}
+.app2 {
+    background: #ffe79a;
+    border-radius: 50%;
+    display: block;
+    height: 350px;
+    right: 30%;
+    margin: -51px 0 0 -49px;
+    position: absolute;
+    top: -180px;
+    width: 350px;
+}
+
+.app3 {
+    background: #ffe79a;
+    border-radius: 50%;
+    display: block;
+    height: 300px;
+    right: 68%;
+    margin: -51px 0 0 -49px;
+    position: absolute;
+    top: 89%;
+    width: 300px;
+}
+.table {
+    position: relative;
+    z-index: 1;
+}
