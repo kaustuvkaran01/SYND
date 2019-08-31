@@ -44,9 +44,8 @@ export default class Login extends Component {
                                 color: "#EF5A5A"
                             }}
                         >
-                            <a href="./DelAgent.jsx" style={{color:"#EF5A5A"}}><h4>Delete Agent</h4></a>
+                            <a href="#" style={{color:"#EF5A5A"}}><h4>Delete Agent</h4></a>
                         </div>
-                        {/* TODO: Add a page of Delete Agent and link it with DelAgent.jsx */}
                         <div
                             class="tl pl5"
                             style={{
@@ -75,15 +74,20 @@ export default class Login extends Component {
                                 <thead>
                                     <tr class="stripe-dark">
                                         <th class="fw6 tl pa3 bg-white" style={{borderTopLeftRadius:"5px", backgroundColor:"#ffe79a", color:"#EF5A5A"}}>
-                                            Name
+                                            Employee Name
                                         </th>
                                         <th class="fw6 tl pa3 bg-white" style={{backgroundColor:"#ffe79a", color:"#EF5A5A"}}>
-                                            Username
+                                            Branch Name
                                         </th>
                                         <th class="fw6 tl pa3 bg-white" style={{backgroundColor:"#ffe79a", color:"#EF5A5A"}}>
                                             Email
                                         </th>
-                                        <th class="fw6 tl pa3 bg-white" style={{borderTopRightRadius:"5px", backgroundColor:"#ffe79a", color:"#EF5A5A"}}>ID</th>
+                                        <th class="fw6 tl pa3 bg-white" style={{backgroundColor:"#ffe79a", color:"#EF5A5A"}}>
+                                            Employee Code
+                                        </th>
+                                        <th class="fw6 tl pa3 bg-white" style={{backgroundColor:"#ffe79a", color:"#EF5A5A"}}>
+
+                                        </th>
                                     </tr>
                                 </thead>
                                 <tbody class="lh-copy">
@@ -100,6 +104,9 @@ export default class Login extends Component {
                                         <td class="pa3 bg-light-gray">
                                             14419232532474
                                         </td>
+                                        <td class="pa3 bg-light-gray">
+                                             <button id="del-btn" class="grow"> Delete</button>         {/* TODO: Buttons mein css daalni hai mere system pe nahi dal rahi hai*/}
+                                        </td>
                                     </tr>
                                     <tr class="stripe-dark">
                                         <td class="pa3 bg-light-gray">
@@ -114,6 +121,9 @@ export default class Login extends Component {
                                         <td class="pa3 bg-light-gray">
                                             72326219423551
                                         </td>
+                                        <td class="pa3 bg-light-gray">
+                                            <button id="del-btn" class="grow"> Delete</button>
+                                        </td>
                                     </tr>
                                     <tr class="stripe-dark">
                                         <td class="pa3 bg-light-gray">
@@ -126,6 +136,9 @@ export default class Login extends Component {
                                         <td class="pa3 bg-light-gray">
                                             92325170324444
                                         </td>
+                                        <td class="pa3 bg-light-gray">
+                                            <button id="del-btn" class="grow"> Delete</button>
+                                        </td>
                                     </tr>
                                     <tr class="stripe-dark">
                                         <td class="pa3 bg-light-gray">
@@ -137,6 +150,9 @@ export default class Login extends Component {
                                         </td>
                                         <td class="pa3 bg-light-gray">
                                             71165170352909
+                                        </td>
+                                        <td class="pa3 bg-light-gray">
+                                            <button id="del-btn" class="grow"> Delete</button>
                                         </td>
                                     </tr>
                                     <tr class="stripe-dark">
@@ -151,6 +167,9 @@ export default class Login extends Component {
                                         </td>
                                         <td class="pa3 bg-light-gray">
                                             71865178111909
+                                        </td>
+                                        <td class="pa3 bg-light-gray">
+                                            <button id="del-btn" class="grow"> Delete</button>
                                         </td>
                                     </tr>
                                 </tbody>

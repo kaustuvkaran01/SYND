@@ -1,5 +1,7 @@
 import React from "react";
 import Login from "./components/Login";
+import Sidebar from "./components/Sidebar";
+import DelAgent from "./components/DelAgent"
 
 function App() {
     return (
