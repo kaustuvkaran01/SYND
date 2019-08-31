@@ -32,7 +32,7 @@ export default class Login extends Component {
                                 class="ba b--transparent ph0 mh0 "
                             >
                                 <legend
-                                    class="f2 fw5 ph0 mh0 "
+                                    class="f2 fw5 ph0 mh0 pv3"
                                     style={{
                                         display: "flex",
                                         color: "#FEFFDF",
@@ -43,33 +43,41 @@ export default class Login extends Component {
                                 >
                                     Login
                                 </legend>
-                                <div class="mt4">
-                                    <input
-                                        class="pa2 input-reset ba b--white bg-transparent hover-white w-100"
-                                        type="email"
-                                        name="email-address"
-                                        id="email-address"
-                                        placeholder="Username"
-                                        styles={{}}
-                                    />
+                                <div class="pv3">
+                                    <div class="mt4"  style={{borderRadius:"35px", backgroundColor:"#FFE79A", borderColor:"#FFE79A"}}>
+                                        <input
+                                            class="b pa2 input-reset ba b--white bg-transparent w-100"
+                                            type="email"
+                                            name="email-address"
+                                            id="email-address"
+                                            placeholder="Username"
+                                            style={{
+                                                border:"2px #FFE79A"
+                                            }}
+                                        />
+                                    </div>
                                 </div>
-                                <div class="mv3">
+                                <div class="mv3"  style={{borderRadius:"35px",backgroundColor:"#FFE79A", }}>
                                     <input
-                                        class="b pa2 input-reset ba b--white bg-transparent hover-white w-100"
+                                        class="b pa2 input-reset ba b--white bg-transparent w-100"
                                         type="password"
                                         name="password"
                                         id="password"
                                         placeholder="Password"
+                                        style={{
+                                            border:"2px #FFE79A"
+                                        }}
                                     />
                                 </div>
 
-                                <div class="">
+                                <div class="" style={{justifyContent:"center", alignItems:"center", borderColor:"#FFE79A", borderRadius:"35px"}}>
                                     <button
                                         class="button bg-transparent pv2 ph3 mt3 pointer grow"
                                         style={{
-                                            border: "2px solid white",
-                                            background: "white",
-                                            color: "#7749F5"
+                                            border: "2px #FFE79A",
+                                            background: "#FFE79A",
+                                            color: "#7749F5",
+                                            borderRadius:"35px"
                                         }}
                                     >
                                         Sign In
