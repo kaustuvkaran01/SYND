@@ -24,7 +24,7 @@ export default class Login extends Component {
                                 color: "#EF5A5A"
                             }}
                         >
-                            <h2>DASHBOARD</h2>
+                            <a href="#" style={{color:"#EF5A5A"}}><h2>DASHBOARD</h2></a>
                         </div>
                         <div
                             class="tl pl5"
@@ -34,7 +34,7 @@ export default class Login extends Component {
                                 color: "#EF5A5A"
                             }}
                         >
-                            <h4>Delete Request</h4>
+                            <a href="#" style={{color:"#EF5A5A"}}><h4>Delete Request</h4></a>
                         </div>
                         <div
                             class="tl pl5"
@@ -44,7 +44,7 @@ export default class Login extends Component {
                                 color: "#EF5A5A"
                             }}
                         >
-                            <h4>Delete Agent</h4>
+                            <a href="#" style={{color:"#EF5A5A"}}><h4>Delete Agent</h4></a>
                         </div>
                         <div
                             class="tl pl5"
@@ -54,7 +54,7 @@ export default class Login extends Component {
                                 color: "#EF5A5A"
                             }}
                         >
-                            <h5>Sign out</h5>
+                            <a href="#" style={{color:"#EF5A5A"}}><h4>Sign Out</h4></a>
                         </div>
                     </div>
                 </div>
@@ -73,16 +73,16 @@ export default class Login extends Component {
                             <table class="f6 w-100 mw8 center" cellspacing="0">
                                 <thead>
                                     <tr class="stripe-dark">
-                                        <th class="fw6 tl pa3 bg-white">
+                                        <th class="fw6 tl pa3 bg-white" style={{borderTopLeftRadius:"5px", backgroundColor:"#ffe79a", color:"#EF5A5A"}}>
                                             Name
                                         </th>
-                                        <th class="fw6 tl pa3 bg-white">
+                                        <th class="fw6 tl pa3 bg-white" style={{backgroundColor:"#ffe79a", color:"#EF5A5A"}}>
                                             Username
                                         </th>
-                                        <th class="fw6 tl pa3 bg-white">
+                                        <th class="fw6 tl pa3 bg-white" style={{backgroundColor:"#ffe79a", color:"#EF5A5A"}}>
                                             Email
                                         </th>
-                                        <th class="fw6 tl pa3 bg-white">ID</th>
+                                        <th class="fw6 tl pa3 bg-white" style={{borderTopRightRadius:"5px", backgroundColor:"#ffe79a", color:"#EF5A5A"}}>ID</th>
                                     </tr>
                                 </thead>
                                 <tbody class="lh-copy">
